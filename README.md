@@ -1,4 +1,3 @@
-# jhajuhi22
 ## Assignment Part-1
 Q1. Why do we call Python as a general purpose and high-level programming language?
 Ans. It's called general purpose dynamic language because it is not written in machine readable language and it's easy for humans to understand that is why it is high-level programming language.     
@@ -43,3 +42,92 @@ Ans. Keywords are reserved words that can be used for specific purpose.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
 Ans. No we can't because it a predefined words reserved for specific purpose in a programming language.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+Ans. Indentation means the spaces at the beginning of an statement or code. Python uses indentation to indicate a block of code.
+
+Q13. How can we throw some output in Python?
+Ans. Through Print() statement.
+
+Q14. What are operators in Python?
+Ans.1.Arithmetic operators.
+    2.Assignment operators.
+    3.Comparison operators.
+    4.Logical operators.
+
+Q15. What is difference between / and // operators?
+Ans. / for float division and // for integer division.
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+Ans. 
+x = "iNeuroni"
+print(x*4)
+      
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans.
+x = int(input("Enter a number "))
+if (x % 2) == 0:
+    print("The number is even")
+else:
+    print("The number is odd")   
+
+Q18. What are boolean operator?
+Ans. Logical operators AND, OR and NOT are boolean operators which provides output as True , False
+
+Q19. What will the output of the following?
+```
+1 or 0 = 1
+
+0 and 0 = 0
+
+True and False and True  = True
+
+1 or 0 or 0 = 1 or 0 = 1
+```
+
+Q20. What are conditional statements in Python?
+Ans. Statements used to handle condition in the programme.
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans. if is used for multiple expressions in the programme in which decision making is required.
+Example: If it is raining and weather is cold, we will not play outside
+
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+Ans.
+age = int(input("Enter age of the person "))
+if age >= 18:
+    print("I can vote")
+else:
+    print("I can't vote") 
+   
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+Ans.
+numbers = [12, 75, 150, 180, 145, 525, 50]
+evensum = 0
+
+
+for i in numbers:
+     if i%2==0:
+         evensum += i
+print(evensum)```
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+Ans.
+x = input("Enter 1st number ")
+y = input("Enter 2nd number ")
+z = input("Enter 3rd number ")
+if (x >= y) and (y >= z):
+   largest = x
+elif (y >= x) and (y >= z):
+   largest = y
+else:
+   largest = z
+   print("Largest of all", largest)
+
