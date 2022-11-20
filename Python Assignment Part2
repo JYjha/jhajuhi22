@@ -325,3 +325,66 @@ Ans. common values of two sets are fetched using intersection()
      set1 = {1,2,3,"is"}
      set2 = {"is","are","am",1,5}
      print(set1 & set2)
+     
+Q63. What is the use of items() function?
+Ans. items() method is used to return the list with all dictionary keys with values.
+Example: dict0 = {'Name': 'Juhi', 'Age': 28}
+         print(dict0.items())
+output: dict_items([('Name', 'Juhi'), ('Age', 28)])
+
+Q64. What is the use of pop() function?
+Ans. pop() removes an item at the specified index from the list.
+Code: lst0 = ['Name', 'Juhi', 'Age', 28]
+      lst0.pop(3)
+      print(lst0)
+Output: ['Name', 'Juhi', 'Age']  # removed 4th element of the list
+
+Q65. What is the use of popitems() function?
+Ans. The popitem() method removes the item that was last inserted into the dictionary.
+
+Q66. What is the use of keys() function?
+Ans. key() method is used to get the list of the keys of dictionary.
+Code: dict0 = {'Name': 'Juhi', 'Age': 28}
+      print(dict0.keys())
+Output: dict_keys(['Name', 'Age'])    
+
+Q67. What is the use of values() function?
+Ans. Values() that returns a view object
+The view object contains the values of the dictionary, as a list.
+Code: dict0 = {'Name': 'Juhi', 'Age': 28}
+print(dict0.values())
+Output: dict_values(['Juhi', 28])
+
+Q68. What are loops in Python?
+Ans. Looping means repeating something over and over until a particular condition is satisfied.
+
+Q69. How many type of loop are there in Python?
+Ans. There are two types of loops in Python, for and while loop.
+
+Q70. What is the difference between for and while loops?
+Ans. A for loop is a single-line command that will be executed repeatedly. While loops can be single-lined or contain multiple commands for a single condition.
+
+Q71. What is the use of continue statement?
+Ans.The continue keyword is used to end the current iteration in a for loop (or a while loop), and continues to the next iteration.
+Example: 
+      if num>500:
+#         break
+#     elif num>150:
+#         continue
+#     elif num % 5 == 0:
+#         print(num)
+
+Q72. What is the use of break statement?
+Ans. The Break statement terminates the loop containing it.
+refer above example.
+
+Q73. What is the use of pass statement?
+Ans. Python pass is a null statement provided by the Python programming language in order to ignore a set of code that we do not want to execute.
+
+Q74. What is the use of range() function?
+Ans. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+Syntax: range(start, stop, step)
+
+Q75. How can you loop over a dictionary?
+Ans. We can loop through a dictionary by using a for loop. We can use the keys(), items(), and values() methods.     
+     
